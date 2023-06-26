@@ -35,7 +35,7 @@ class disjiontSet{
         else if(rank[elder_a] == rank[elder_b])
         {
             elder[elder_a] = elder_b;
-            rank[elder_a]++;
+            rank[elder_b]++;
         }
     }
 
