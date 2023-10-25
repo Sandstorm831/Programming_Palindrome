@@ -1,13 +1,11 @@
-//Problem link - https://www.interviewbit.com/courses/programming/topics/bit-manipulation/problems/single-number/
-#include <bits/stdc++.h>
-using namespace std;
-int main()
-{
-    vector<int> A = {2,4, 4 ,5,6,5,6}; // This has to be assumed
-    int n = A.size();
-    int k=0;
-    for(int i = 0; i<n; i++){
-        k ^= A[i];
+// Question Link - https://leetcode.com/problems/single-number/description/?envType=study-plan-v2&envId=top-interview-150
+// Solution 
+
+class Solution {
+public:
+    int singleNumber(vector<int>& nums) {
+        int x=0;
+        for(int i=0; i<nums.size(); i++) x^=nums[i];
+        return x;
     }
-    cout<<k;
-}
+};
