@@ -1,5 +1,23 @@
 # Leetcode Solution 
 # Link : https://leetcode.com/problems/rotate-image/
+
+# Transpose the matrix and reverse each of the row
+class Solution:
+
+    def rotate(self, matrix: List[List[int]]) -> None:
+        """
+        Do not return anything, modify matrix in-place instead.
+        """
+        # Trnaspose the matrix and reverse each row
+        for i in range(len(matrix)):
+            for j in range(i+1,len(matrix)):
+                temp = matrix[i][j]
+                matrix[i][j] = matrix[j][i]
+                matrix[j][i] = temp
+
+        for i in range(len(matrix)):
+            matrix[i].reverse()
+
 # apply coordinate transformation : for 90 degree clockwise rotation : i,j -> j,n-1-i
 
 def nextIndex(i,j, n):
