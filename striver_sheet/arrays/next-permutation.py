@@ -1,5 +1,5 @@
 # Leetcode Solution 
-# Link : https://leetcode.com/problems/pascals-triangle/
+# Link : https://leetcode.com/problems/next-permutation/
 
 ########## Important Comment ##################
 # We want to find a larger number, but not too large - just the next larger one =>
