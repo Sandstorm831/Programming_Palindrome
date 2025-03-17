@@ -1,5 +1,5 @@
 # Leetcode Solution 
-# Link : https://takeuforward.org/data-structure/find-the-duplicate-in-an-array-of-n1-integers/
+# Link : https://leetcode.com/problems/find-the-duplicate-number/
 # hare and tortoise algorithm : https://keithschwarz.com/interesting/code/?dir=find-duplicate
 
 class Solution:
