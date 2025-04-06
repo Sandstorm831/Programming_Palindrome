@@ -1,6 +1,6 @@
-# Leetcode Solution 
+# Leetcode Solution
 # Link : https://leetcode.com/problems/sort-colors/
-# Dutch National Flag algorithm
+# Dutch National Flag algorithm : https://youtu.be/tp8JIuCXBaU?list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&t=273
 
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
@@ -19,7 +19,7 @@ class Solution:
                 nums[m], nums[h] = nums[h], nums[m]
                 h-=1
 
-            
+
 # Ad-hoc solution
 
 class Solution:
@@ -47,6 +47,3 @@ class Solution:
             else:
                 nums[i] = 2
                 twos-=1
-
-            
-        
