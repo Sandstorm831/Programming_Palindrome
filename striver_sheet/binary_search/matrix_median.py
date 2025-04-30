@@ -14,12 +14,12 @@ def sm_or_equal(row, std):
 
 class Solution:
     def median(self, mat):
-    	r = len(mat)
-    	c = len(mat[0])
-    	rc_max, rc_min = -1, 2001
-    	for i in range(len(mat)):
-    	    rc_max = max(rc_max, mat[i][-1])
-    	    rc_min = min(rc_min, mat[i][0])
+        r = len(mat)
+        c = len(mat[0])
+        rc_max, rc_min = -1, 2001
+        for i in range(len(mat)):
+            rc_max = max(rc_max, mat[i][-1])
+            rc_min = min(rc_min, mat[i][0])
         lo, hi = rc_min, rc_max
         desired = (r*c+1)//2
         # print(lo, hi)
