@@ -1,3 +1,6 @@
+# GFG solution
+# Link : https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1&selectedLang=python3
+
 mp = {
     "R": [0,1],
     "L": [0, -1],

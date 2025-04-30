@@ -1,4 +1,4 @@
-# Leetcode solution
+# GFG solution
 # Link : https://www.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1
 
 # User function Template for python3
